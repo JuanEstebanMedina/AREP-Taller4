@@ -7,4 +7,4 @@ ENV PORT=6000
 COPY /target/classes /usrapp/bin/classes
 COPY /target/dependency /usrapp/bin/dependency
  
-CMD ["java","-cp","./classes:./dependency/*","escuelaing.edu.co.dockeraws.RestServiceApplication"]
+CMD ["java","-cp","./classes:./dependency/*","co.escuelaing.arep.microspringboot.MicroSpringBoot"]
